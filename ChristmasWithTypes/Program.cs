@@ -8,10 +8,10 @@ namespace ChristmasWithTypes
         {
             var xmas = new Christmas();
 
-            var xmasDay = "Thursday";
+            var xmasDay = Christmas.Day.Thursday;
 
             //TODO set Santa's name to Kris Kringle
-            xmas.Santa = null;
+            xmas.Santa = "Kris Kringle";
 
             //TODO Insert 3 presents you would like for xmas.  They must be strings
             xmas.Presents =  new string[3]{ "PS5", "RTX 4090 Founders Edition", "mechincal keyboard" }; 
